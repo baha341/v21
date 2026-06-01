@@ -18,7 +18,7 @@ jobs:
 
       - name: Download subscription
         run: |
-          curl -L --fail "https://bahador.bahadorpma.workers.dev/sub/normal/absI__TaR%40BzSIla?app=xray" -o sub.txt
+          curl -L --fail "https://bahador.bahadorpma.workers.dev/sub/fragment/absI__TaR%40BzSIla?app=xray#%F0%9F%92%A6%20BPB%20Fragment" -o sub.txt
 
       - name: Commit changes
         run: |
